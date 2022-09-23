@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7576025628DE6F3200D64C48 /* thirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7576025528DE6F3200D64C48 /* thirdViewController.swift */; };
 		75B09D2028DBDF7F00CEFEFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B09D1F28DBDF7F00CEFEFD /* AppDelegate.swift */; };
 		75B09D2228DBDF7F00CEFEFD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B09D2128DBDF7F00CEFEFD /* SceneDelegate.swift */; };
 		75B09D2428DBDF7F00CEFEFD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B09D2328DBDF7F00CEFEFD /* ViewController.swift */; };
@@ -15,6 +16,7 @@
 		75B09D2C28DBDF8000CEFEFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75B09D2A28DBDF8000CEFEFD /* LaunchScreen.storyboard */; };
 		75B09D3728DBDF8000CEFEFD /* HackwichFourTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B09D3628DBDF8000CEFEFD /* HackwichFourTests.swift */; };
 		75B09D4228DBDF8000CEFEFD /* HackwichFourUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B09D4128DBDF8000CEFEFD /* HackwichFourUITests.swift */; };
+		75B09D5028DBE36B00CEFEFD /* secondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B09D4F28DBE36B00CEFEFD /* secondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7576025528DE6F3200D64C48 /* thirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thirdViewController.swift; sourceTree = "<group>"; };
 		75B09D1C28DBDF7F00CEFEFD /* HackwichFour.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackwichFour.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75B09D1F28DBDF7F00CEFEFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		75B09D2128DBDF7F00CEFEFD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +52,7 @@
 		75B09D3D28DBDF8000CEFEFD /* HackwichFourUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackwichFourUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		75B09D4128DBDF8000CEFEFD /* HackwichFourUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackwichFourUITests.swift; sourceTree = "<group>"; };
 		75B09D4328DBDF8000CEFEFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75B09D4F28DBE36B00CEFEFD /* secondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,7 @@
 		75B09D1328DBDF7F00CEFEFD = {
 			isa = PBXGroup;
 			children = (
+				7576025528DE6F3200D64C48 /* thirdViewController.swift */,
 				75B09D1E28DBDF7F00CEFEFD /* HackwichFour */,
 				75B09D3528DBDF8000CEFEFD /* HackwichFourTests */,
 				75B09D4028DBDF8000CEFEFD /* HackwichFourUITests */,
@@ -103,6 +108,7 @@
 				75B09D2128DBDF7F00CEFEFD /* SceneDelegate.swift */,
 				75B09D2328DBDF7F00CEFEFD /* ViewController.swift */,
 				75B09D2528DBDF7F00CEFEFD /* Main.storyboard */,
+				75B09D4F28DBE36B00CEFEFD /* secondViewController.swift */,
 				75B09D2828DBDF8000CEFEFD /* Assets.xcassets */,
 				75B09D2A28DBDF8000CEFEFD /* LaunchScreen.storyboard */,
 				75B09D2D28DBDF8000CEFEFD /* Info.plist */,
@@ -258,7 +264,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75B09D5028DBE36B00CEFEFD /* secondViewController.swift in Sources */,
 				75B09D2428DBDF7F00CEFEFD /* ViewController.swift in Sources */,
+				7576025628DE6F3200D64C48 /* thirdViewController.swift in Sources */,
 				75B09D2028DBDF7F00CEFEFD /* AppDelegate.swift in Sources */,
 				75B09D2228DBDF7F00CEFEFD /* SceneDelegate.swift in Sources */,
 			);
